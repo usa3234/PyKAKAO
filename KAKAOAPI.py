@@ -59,5 +59,5 @@ if __name__ == "__main__":
     #text = "나에게 보내는 카톡("+os.path.basename(__file__).replace(".py", ")")
     text = "\n".join(msgList)
     print(text)
-    KAKAO_TOKEN = 'Lt0RY15mMFyp-y1P3kqzC0i7oBJ2xhxqnfxmPworDR8AAAF7yBPVqw'
+    KAKAO_TOKEN = '토큰넘버'
     print(sendMessage(text).text)
